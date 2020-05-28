@@ -1,0 +1,28 @@
+div {
+  text-align: center;
+  background-color: teal;
+  width: auto;
+  height: auto;
+  color: inherit;
+  padding: 20px;
+}
+
+h1 {
+  color: gold;
+}
+
+h2 {
+  text-align: left;
+  color: red;
+  font-size: 30px;
+}
+
+p {
+  font-size: 30px;
+  font-family: arial, sans-serif;
+}
+
+li{
+  text-align: left;
+  font-size: 30px;
+}

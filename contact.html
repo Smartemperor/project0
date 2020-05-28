@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Novel Website</title>
+
+        <style>
+          h1, h2 {
+            font-size: bold;
+          }
+          h1 {
+            text-align: center;
+            background-color: gold;
+          }
+          h2 {
+            color: gold;
+            font-size: 39px;
+          }
+          p {
+            font-size: 30px;
+          }
+
+          input[type=text] {
+            background-color: purple;
+            font-size: 30px
+          }
+          input[type=number] {
+            background-color: blue;
+            font-size: 30px
+          }
+          button {
+            width: 180px;
+            height: 40px;
+            font-size: 25px;
+            background-color: green;
+          }
+
+          button:hover {
+            background-color: gold;
+          }
+
+          a::before {
+            content:"\21d2 click me: ";
+            font-weight: bold;
+            font-size: 30px;
+            color: gold;
+          }
+
+          a{
+            font-size: 30px;
+          }
+
+          h3{
+            color: purple;
+            font-size: 25px;
+          }
+          ol, ul{
+            font-size: 23px;
+          }
+
+          p::selection {
+            color: blue;
+            background-color: yellow;
+          }
+        </style>
+    </head>
+    <body>
+        <h1>Contact</h1>
+
+        <p>This is the contact page for enquires and complaints.</p>
+        <h2>Contact Form</h2>
+
+        <form>
+          <input type="text" name="name" placeholder="First Name">
+          <input type="text" name="name" placeholder="Last Name">
+          <input type="number" name="name" placeholder="Age">
+        </form>
+        <p></p>
+          <button>Send</button>
+
+        <h2>Gate Domain!</h2>
+         <ol>
+           <li>
+             <h3>Dragon Gate:</h3>
+               <p>This gate leads to the secret on attainment of infinite power...</p>
+          </li>
+          <li>
+            <h3>Tiger Gate:</h3>
+              <p>This gate leads to the secret on attainment of finite power...</p>
+         </li>
+         <li>
+           <h3>Programmer Gate:</h3>
+             <p>This gate is not child's play... Flee!</p>
+        </li>
+         </ol>
+        <ul>
+          <li><a href="#">Dragon Gate</a></li>
+          <li><a href="#">Tiger Gate</a></li>
+          <li><a href="#">Programmer Gate</a></li>
+        </ul>
+    </body>
+</html>

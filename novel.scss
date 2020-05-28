@@ -1,0 +1,46 @@
+%display {
+  font-family: serif;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.Member {
+  @extend %display;
+  background-color: pink;
+}
+
+.Guest {
+  @extend %display;
+  background-color: purple;
+}
+
+$color: gold;
+
+div {
+  font-weight: bold;
+
+h1 {
+  text-align: center;
+  background-color: gold;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  color: $color;
+}
+h3{
+  font-size: 24px;
+}
+ }
+
+img {
+  padding: 50px;
+}
+a {
+ font-size: 25px;
+}
